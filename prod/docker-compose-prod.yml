@@ -22,7 +22,7 @@ services:
       - mongo
 
   java-app:
-    image: java-api
+    image: luliin/solo-project
     ports:
     - 8080:8080
     environment:
